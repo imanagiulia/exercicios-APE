@@ -20,7 +20,7 @@ int main(){
     }else {
         int diferenca = vendas - 1500;
 
-        salTotal = salFixo +  (1500 * 3/100) + + (diferenca * 5/100);
+        salTotal = salFixo +  (1500 * 3/100) + (diferenca * 5/100);
         printf("Seu salário total foi de R$%.2f", salTotal);
     }
 }

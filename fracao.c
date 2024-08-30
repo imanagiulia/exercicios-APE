@@ -3,20 +3,21 @@
 #include <math.h>
 #include <stdio.h>
 
-void verificarNumero(float num);
+void verificarNumero(double num);
 
 int main(){
-    float n, d;
+    double n, d;
 
     printf("Digite um número: ");
-    scanf("%f", n);
+    scanf("%lf", n);
+
 
     verificarNumero(n);
     puts("");
 
 }
 
-void verificarNumero(float num){
+void verificarNumero(double num){
     double parteInteira;
     double parteFracionaria = modf(num, &parteInteira);
     float x, d, n;

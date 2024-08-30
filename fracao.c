@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdio.h>
 
-void verificarNumero(double num);
+void verificarNumero(float num);
 
 int main(){
     float n, d;
@@ -16,7 +16,7 @@ int main(){
 
 }
 
-void verificarNumero(double num){
+void verificarNumero(float num){
     double parteInteira;
     double parteFracionaria = modf(num, &parteInteira);
     float x, d, n;

@@ -9,7 +9,7 @@ int main(){
     double n, d;
 
     printf("Digite um número: ");
-    scanf("%f", n);
+    scanf("%f", &n);
 
 
     verificarNumero(n);
